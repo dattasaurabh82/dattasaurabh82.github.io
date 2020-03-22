@@ -160,9 +160,7 @@
 
   function sendTypedCommand() {
     currCMD = typedCMD.value;
-    showElaborateCurrC
-    log.clear();
-    console.log("clear log area");MD("SENDING CMD:", currCMD);
+    showElaborateCurrCMD("SENDING CMD:", currCMD);
     writeToStream(currCMD);
   }
 
