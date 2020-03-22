@@ -196,6 +196,6 @@ function showElaborateCurrCMD(txt, cmd){
 
 function clearGRBLlogArea(){
   // CLEAR the log area
-  log..innerHTML = "";
+  log.innerHTML = "";
   console.log("clear log area");
 }
