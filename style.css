@@ -132,3 +132,12 @@ body {
   /*border: 1px solid #898989;*/
   padding: 1px;
 }
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: #898989;
+   text-align: right;
+} 
