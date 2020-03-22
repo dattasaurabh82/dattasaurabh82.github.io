@@ -129,15 +129,6 @@ body {
   width: 400px;
   overflow: auto;
   background-color: #E3FFF1; 
-  border: 1px solid #898989;
-  padding: 5px;
+  /*border: 1px solid #898989;*/
+  padding: 1px;
 }
-
-/* #mqtt_log{
-  height: 400px;/*something like 90% would work too if parent's height is specified*/
-  width: 400px;
-  overflow: auto;
-  background-color: #E3FFF1; 
-  border: 1px solid #898989;
-  padding: 5px;
-} */

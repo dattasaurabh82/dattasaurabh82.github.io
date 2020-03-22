@@ -189,14 +189,13 @@
   }
 
 function showElaborateCurrCMD(txt, cmd){
-  // var desc_elems = [txt.toString, cmd.toString];
-  // var desc = desc_elems.join(" ");
   var desc = "--> " + String(txt) + ' ' + String(cmd);
   console.log(desc);
   log.textContent += desc + "\n";
 }
 
 function clearGRBLlogArea(){
-  log.clear();
+  // CLEAR the log area
+  log..innerHTML = "";
   console.log("clear log area");
 }
