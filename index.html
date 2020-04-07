@@ -28,8 +28,6 @@
           <code>chrome://flags</code>
         </div>
         <br />
-        <!-- <pre id="ref">Based on g-code and grbl firmware underneath. For reference and advanced configuration please go to <a href="https://github.com/gnea/grbl/wiki/Grbl-v1.1-Configuration">grbl wiki.</a></pre><br /> -->
-        <!-- <button id="butStopMQTTBridge" type="button">DISABLE MQTT</button> -->
         <button id="butConnect" type="button">CONNECT SERIAL</button>
         <br />
         <br />
@@ -53,20 +51,16 @@
         <br />
         <br />
         <br />
-
         <label class="label" for="cmdSection">command</label><br />
         <input type="text" id="cmdSection" name="cmdSection" />
         <input class="setEntry" id="sendTypedCMD" type="submit" value="SEND" />
         <br />
         <br />
-
         <strong>GRBL RESPONSE: </strong><br /><br />
         <button id="butClearGRBLLog" type="button">CLEAR</button><br />
         <pre id="log"></pre>
         <br />
         <br />
-  <!--       <strong>RECEIVED MQTT COMMAND: </strong><br />
-        <pre id="mqtt_log"></pre> -->
       </main>
       <div class="footer"><pre>Created by saurabh datta @ICA (VGC) Mar 2020. Based on grbl [g-code] (<a href="https://github.com/gnea/grbl/wiki/Grbl-v1.1-Configuration">REFERENCE</a> for more configuration details) and web serial api.</pre></div>
     </body>
